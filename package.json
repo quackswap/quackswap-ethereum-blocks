@@ -15,7 +15,9 @@
     "deploy-poa": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ blocklytics/poa-core-blocks",
 
     "create-staging": "graph create bttc-blocks --node https://graph-json-rpc.hotcross.dev",
-    "deploy-staging": "graph deploy bttc-blocks --ipfs https://ipfs.hotcross.dev --node https://graph-json-rpc.hotcross.dev"
+    "deploy-staging": "graph deploy bttc-blocks --ipfs https://ipfs.hotcross.dev --node https://graph-json-rpc.hotcross.dev",
+    "create-prod": "graph create bttc-blocks --node https://graph-json-rpc.hotcross.com",
+    "deploy-prod": "graph deploy bttc-blocks --ipfs https://ipfs.hotcross.com --node https://graph-json-rpc.hotcross.com",
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "^0.17.1",
